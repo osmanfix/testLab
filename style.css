@@ -4,11 +4,16 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
-
+main {
+    width: 100%;
+}
 a{
     text-decoration: none;
 }
+
+
 .header{    
     margin: 0 auto;
     width: 100%;
@@ -25,8 +30,10 @@ a{
 .head-menu{
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 1216px;
+    margin: 0 auto;
 }
 
 .head-navigation{
@@ -36,6 +43,11 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.head-navigation li:hover{
+    text-decoration: underline;
+}
+
 
 .head-navigation a{
     color: white;
@@ -82,9 +94,7 @@ a{
     height: 64px;
     padding: 20px 40px;
     border-radius: 4px;
-}
-
-.main {
+    border: 0px;
 }
 
 .it-works {
@@ -144,9 +154,11 @@ a{
     display: flex;
     width: 1216px;
     height: 448px;
+    margin: 0 auto;
 }
 
-.block-3-txt {
+.bloook {
+    display: flex;
 }
 
 .block-3-title { 
@@ -179,16 +191,39 @@ a{
     text-align: center;
 }
 
+.reviews-arrow{
+    align-self: center;
+}
+
 .review-block{
     display: flex;
     flex-direction: column;
-    width: 341px;
-    height: 316px;
+    background-color: white;
+    box-shadow: 0px 0px 31px -5px rgba(34, 60, 80, 0.2);
     padding: 22px 22px 62px 22px;
     border-radius: 8px;
 }
+
+.name-user{ 
+    font-family: Graphik LCG;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.city-user{
+    font-family: Graphik LCG;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .ddddd{
     display: flex;
+    padding-bottom: 20px;
 }
 .avatar{
     height: 44px;
@@ -197,17 +232,19 @@ a{
 .info-user{ 
     display: flex;
     flex-direction: column;
+    padding-left: 16px;
 }
 
 .reviews-blocks{
     display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    margin: 0 auto;
 }
 
-
-
-
-
-
+.review-description {
+    width:297px;
+}
 
 .footer{
     height: 88px;    display: flex;
