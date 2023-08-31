@@ -191,8 +191,16 @@ a{
     text-align: center;
 }
 
-.reviews-arrow{
+.prev-button,
+.next-button {
+}
+
+.prev-button{
     align-self: center;
+}
+
+.next-button {
+    right: 10px;
 }
 
 .review-block{
